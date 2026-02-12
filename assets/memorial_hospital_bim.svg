@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e9ecef" stroke-width="1"/>
+        </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="#ffffff"/>
+    <rect width="100%" height="100%" fill="url(#grid)"/>
+    
+    <!-- Wireframe Structure -->
+    <g transform="translate(400, 300)" stroke="#dc353e" stroke-width="1.5" fill="none" opacity="0.8">
+        <!-- Isometric Blocks -->
+        <path d="M0 -100 L86.6 -50 L86.6 50 L0 100 L-86.6 50 L-86.6 -50 Z" />
+        <path d="M0 -100 L0 0 L0 100" />
+        <path d="M-86.6 -50 L0 0 L86.6 -50" />
+        
+        <!-- Internal Details (AI scanning effect) -->
+        <path d="M-40 -20 L40 -20 L40 20 L-40 20 Z" stroke-dasharray="5,5" opacity="0.5"/>
+        <circle cx="0" cy="0" r="30" stroke-dasharray="2,2" opacity="0.3"/>
+        
+        <!-- Scanning Line -->
+        <line x1="-150" y1="0" x2="150" y2="0" stroke="#dc353e" stroke-width="2" opacity="0.2">
+            <animate attributeName="y1" values="-150;150;-150" dur="4s" repeatCount="indefinite" />
+            <animate attributeName="y2" values="-150;150;-150" dur="4s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite" />
+        </line>
+    </g>
+
+    <text x="50%" y="90%" font-family="monospace" font-size="16" fill="#dc353e" text-anchor="middle" letter-spacing="2">AI-OPTIMIZED STRUCTURE</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 { fill: none; stroke: #dc353e; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .cls-2 { fill: #dc353e; opacity: 0.15; }
+    </style>
+  </defs>
+  
+  <!-- Abstract Isometric Cube / 3D Layered Structure -->
+  <!-- Back face -->
+  <path class="cls-2" d="M50,20 L80,35 L80,65 L50,80 L20,65 L20,35 Z" />
+  
+  <!-- Outer Lines -->
+  <path class="cls-1" d="M50,15 L85,32.5 L85,67.5 L50,85 L15,67.5 L15,32.5 Z" />
+  
+  <!-- Inner Y shape denoting 3D corner -->
+  <path class="cls-1" d="M50,50 L50,85" />
+  <path class="cls-1" d="M50,50 L85,32.5" />
+  <path class="cls-1" d="M50,50 L15,32.5" />
+  
+  <!-- Floating dot/node on top -->
+  <circle cx="50" cy="15" r="5" fill="#dc353e" />
+</svg>
