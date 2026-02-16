@@ -13,6 +13,19 @@
         content="BIM Modeling, Revit Outsourcing, Architectural BIM, MEP Coordination, Scan to BIM, 4D Scheduling, 3D Modeling Services, India BIM Company">
     <meta name="author" content="Tesla Outsourcing Services">
     <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#dc353e">
+    <meta name="apple-mobile-web-app-title" content="Tesla BIM">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-XXXXXX');</script>
+    <!-- End Google Tag Manager -->
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -49,30 +62,53 @@
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
+    [
     {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Tesla Outsourcing Services",
-      "image": "https://intilligentidiot.github.io/hire-dedicated-bim-modeler/assets/logo.svg",
-      "url": "https://intilligentidiot.github.io/hire-dedicated-bim-modeler/",
-      "telephone": "+1-123-456-7890",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "IN"
+      "@type": "WebSite",
+      "name": "Hire Dedicated BIM Modelers",
+      "url": "https://intilligentidiot.github.io/hire-dedicated-bim-modeler/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://intilligentidiot.github.io/hire-dedicated-bim-modeler/"
+      }]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "BIM Modeling Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Tesla Outsourcing Services",
+        "url": "https://www.teslaoutsourcingservices.com/",
+        "logo": "https://intilligentidiot.github.io/hire-dedicated-bim-modeler/assets/logo.svg"
       },
-      "description": "High-quality BIM modeling and architectural engineering services.",
-      "priceRange": "$$"
+      "name": "Hire Dedicated BIM Modelers",
+      "url": "https://intilligentidiot.github.io/hire-dedicated-bim-modeler/",
+      "description": "Scale your architecture team with dedicated BIM modelers. High-quality LOD 300-500 services.",
+      "image": "https://intilligentidiot.github.io/hire-dedicated-bim-modeler/assets/logo.svg"
     }
+    ]
     </script>
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- Header -->
     <header class="site-header">
         <div class="container">
             <div class="logo">
-                <a href="#">
+                <a href="#" title="Home">
                     <img src="assets/logo.svg" alt="BIM Logo" width="60" height="60">
                 </a>
             </div>
@@ -84,9 +120,9 @@
 
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#benefits">Benefits</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#models">Engagement Models</a></li>
+                    <li><a href="#benefits" title="Benefits">Benefits</a></li>
+                    <li><a href="#services" title="Services">Services</a></li>
+                    <li><a href="#models" title="Engagement Models">Engagement Models</a></li>
                 </ul>
             </nav>
         </div>
@@ -102,8 +138,11 @@
                     modeling services tailored
                     to your workflow.</p>
                 <div class="hero-actions">
-                    <a href="#contact" class="btn btn-primary hero-stagger-item">Hire a Modeler</a>
-                    <a href="#models" class="btn btn-secondary hero-stagger-item">View Pricing Models</a>
+                    <a href="#" class="btn btn-primary hero-stagger-item" title="Hire a Modeler">Hire a
+                        Modeler</a>
+                    <a href="https://www.teslaoutsourcingservices.com/hire-dedicated-bim-modeler.php"
+                        class="btn btn-secondary hero-stagger-item" title="View Pricing Models">View
+                        Pricing Models</a>
                 </div>
             </div>
             <div id="canvas-container" class="hero-image reveal"></div>
@@ -204,9 +243,6 @@
             <h2 class="section-title">Featured Success Story</h2>
             <div class="project-feature reveal">
                 <h3>Future-Ready Medical Complex</h3>
-                <p class="project-quote">"AI-driven coordination reduced MEP conflicts by 95%."</p>
-                <p>Leveraging advanced AI algorithms, we optimized the structural integrity and energy efficiency of
-                    this 500-bed facility, ensuring zero construction delays.</p>
                 <div id="project-3d-scene" class="project-3d-container"></div>
             </div>
         </div>
@@ -224,7 +260,6 @@
                         <li>No binding contracts</li>
                         <li>Flexible "On-Demand" usage</li>
                     </ul>
-                    <a href="#" class="btn btn-outline">Select Hourly</a>
                 </div>
                 <div class="pricing-card popular reveal">
                     <div class="badge">Most Content</div>
@@ -236,8 +271,6 @@
                         <li>Fixed monthly cost (lower rate)</li>
                         <li>Works as your extended team</li>
                     </ul>
-                    <a href="https://www.teslaoutsourcingservices.com/hire-dedicated-bim-modeler.php"
-                        class="btn btn-primary">Hire Dedicated</a>
                 </div>
             </div>
         </div>
@@ -266,8 +299,10 @@
     <footer>
         <div class="container">
             <p>&copy; 2026 <a href="https://www.teslaoutsourcingservices.com/" target="_blank"
-                    style="color: #666; text-decoration: underline;">Tesla Outsourcing Services</a>. All rights
-                reserved. | <a href="https://www.teslaoutsourcingservices.com/bim-services.php" style="color: #666;">BIM
+                    title="Tesla Outsourcing Services" style="color: #666; text-decoration: underline;">Tesla
+                    Outsourcing Services</a>. All rights
+                reserved. | <a href="https://www.teslaoutsourcingservices.com/bim-services.php" style="color: #666;"
+                    title="BIM Services India">BIM
                     Services India</a></p>
         </div>
     </footer>
@@ -280,31 +315,7 @@
     <script src="js/animations.js"></script>
     <script src="js/icons.js"></script>
     <script src="js/main.js"></script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Tesla Outsourcing Services",
-      "image": "https://www.teslaoutsourcingservices.com/images/logo.png",
-      "url": "https://www.teslaoutsourcingservices.com",
-      "telephone": "",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "IN"
-      },
-      "description": "Hire dedicated BIM modelers, architects, and engineers for your construction projects. Cost-effective and high-quality BIM services.",
-      "serviceArea": {
-        "@type": "GeoCircle",
-        "geoMidpoint": {
-          "@type": "GeoCoordinates",
-          "latitude": 23.0225,
-          "longitude": 72.5714
-        },
-        "geoRadius": "Global"
-      }
-    }
-    </script>
+
     <button id="backToTop" title="Go to top">↑</button>
 </body>
 
